@@ -1,0 +1,9 @@
+# One environment for all three labs (tested on Python 3.13)
+python-dotenv
+azure-identity
+azure-ai-textanalytics==5.3.0
+azure-ai-projects==2.3.0
+# openai 3.x breaks azure-ai-projects' `import httpx`; keep this pin until that's fixed.
+openai<3
+aiohttp
+playsound3
